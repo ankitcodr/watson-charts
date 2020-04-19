@@ -1,0 +1,19 @@
+{
+  "name": "watson-charts",
+  "version": "1.0.0",
+  "description": "Data Viz using D3.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.15.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
