@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon index.js"
+    "serve": "watson log -s -f 2020-04-12 > data/watson.csv && python3.7 py-scripts/process_watson.py && nodemon index.js"
   },
   "author": "Ankit Gupta",
   "license": "ISC",

@@ -6,24 +6,12 @@
 1. Install Nodejs-13.10+
 1. Install npm
 
-## Install Npm packages
+## Install Node packages
 
 Only needed once.
 
 ```
 npm install
-```
-
-## Dump Watson data in CSV
-
-```
-watson log --csv > data/watson.csv
-```
-
-## Clean data using Python script
-
-```
-python3.7 py-scripts/process_watson.py
 ```
 
 ## Run Node.js Http Server for the dashboard
@@ -40,3 +28,19 @@ http://localhost:8000/
 
 ![DemoImage](demo/images/demo1.png)
 ![DemoImage](demo/images/demo2.png)
+
+## Troubleshooting
+
+### Dump Watson data in CSV
+
+```
+watson log --csv > data/watson.csv
+```
+
+### Clean data using Python script
+
+```
+python3.7 py-scripts/process_watson.py
+```
+
+
