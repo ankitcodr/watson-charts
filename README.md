@@ -1,5 +1,19 @@
 # Watson Charts
 
+## Pre-requisites
+
+1. Install python3.7
+1. Install Nodejs-13.10+
+1. Install npm
+
+## Install Npm packages
+
+Only needed once.
+
+```
+npm install
+```
+
 ## Dump Watson data in CSV
 
 ```
@@ -9,7 +23,7 @@ watson log --csv > data/watson.csv
 ## Clean data using Python script
 
 ```
-python py-scripts/process_watson.py
+python3.7 py-scripts/process_watson.py
 ```
 
 ## Run Node.js Http Server for the dashboard
